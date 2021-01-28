@@ -24,7 +24,7 @@ public class Calculator {
 
 		Calculator math=new Calculator();
 		int total=math.add(10).substract(5).multiply(3).add(3).answer();
-		System.out.println(total);
+		System.out.println("Answer: "+total);
 		
 	}
 
