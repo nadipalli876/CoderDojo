@@ -13,7 +13,7 @@ public class Main {
 		boolean greaterorequal=math.greaterorequal(7, 4);
 		System.out.println("The statment 7>=4 is "+greaterorequal);
 		boolean lessorequal=math.lessorequal(7, 4);
-		System.out.println("The statment 7<=4 is "+equal);
+		System.out.println("The statment 7<=4 is "+lessorequal);
 	}
 
 }
