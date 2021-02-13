@@ -14,6 +14,12 @@ public class Main {
 		System.out.println("The statment 7>=4 is "+greaterorequal);
 		boolean lessorequal=math.lessorequal(7, 4);
 		System.out.println("The statment 7<=4 is "+lessorequal);
+		Logical logic=new Logical();
+		boolean a =true;
+		boolean b=false;
+		System.out.println("a&&b="+logic.and(a, b));
+		System.out.println("a||b="+logic.or(a, b));
+		System.out.println("!(a||b)="+logic.not(a, b));
 	}
 
 }
