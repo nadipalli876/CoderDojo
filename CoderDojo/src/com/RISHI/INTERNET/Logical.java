@@ -10,8 +10,8 @@ public class Logical {
 		boolean answer=compare||compare1;
 		return answer;
 	}
-	public boolean not(boolean compare,boolean compare1) {
-		boolean answer=!(compare||compare1);
+	public boolean not(boolean compare) {
+		boolean answer=!(compare);
 		return answer;
 	}
 
