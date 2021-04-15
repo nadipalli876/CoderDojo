@@ -20,6 +20,7 @@ public class ArrayLoop {
 		}else {
 			System.out.println(valueCheck+" is not found");
 		}
+		
 		//loop with int index
 		for(int i=0;i<array.length;i++) {
 			if(valueCheck.equals(array[i])) {

@@ -47,6 +47,11 @@ public class Main {
 		System.out.println("5|6="+leftshift);
 		int zerofillrightshift=binary.zerofillrightshift(5, 6);
 		System.out.println("5|6="+zerofillrightshift);
+		
+		
+		GenericsMethods method=new GenericsMethods();
+		String[] array={"Hello","World","My name","Is","Rishi"};
+		method.PrintArray(array);
 	}
 
 }
